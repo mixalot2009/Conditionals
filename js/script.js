@@ -3,7 +3,7 @@ var PokemonHealth = 300;
 alert("The opponents pokemon has " + PokemonHealth + "HP left.");
 var PokemonAttackType = confirm("Is the type of attack a fire type attack?");
 var PokemonAttackPP = prompt("How many PP does your pokemon have left?");
-var PokemonAttackPower = prompt("What is the Pokemon's attack power?");
+var PokemonAttackPower = prompt("What is the Pokemon\'s attack power?");
 console.log("The opponents pokemon has " + PokemonHealth + "HP left.");
 console.log("Your Pokemon has " + PokemonAttackPP + "PP left.");
 if(PokemonAttackType){
@@ -15,11 +15,12 @@ if(PokemonAttackType){
     console.log("Your Attack was not very effective!")
     alert("Your Attack was not very effective!")
 }
-console.log("Your Pokemon did " + PokemonAttackBonus + " Damage!");
+alert("Your Pokemon\'s attack did " + PokemonAttackBonus + "damage!")
+console.log("Your Pokemon did " + PokemonAttackBonus + " damage!");
 if(PokemonAttackPP > 1 && PokemonAttackBonus >= 300){
     console.log("Your opponents pokemon fainted!")
     alert("Your opponents pokemon fainted!")
 }else{
-    console.log("You did not knock out the opponents pokemon!")
-    alert("You did not knock out the opponents pokemon!")
+    console.log("You did not knock out the opponent\'s pokemon!")
+    alert("You did not knock out the opponent\'s pokemon!")
 }
