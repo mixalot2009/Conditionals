@@ -18,6 +18,8 @@ if(PokemonAttackType){
 console.log("Your Pokemon did " + PokemonAttackBonus + " Damage!");
 if(PokemonAttackPP > 1 && PokemonAttackBonus >= 300){
     console.log("Your opponents pokemon fainted!")
+    alert("Your opponents pokemon fainted!")
 }else{
     console.log("You did not knock out the opponents pokemon!")
+    alert("You did not knock out the opponents pokemon!")
 }
