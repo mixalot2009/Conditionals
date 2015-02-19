@@ -2,9 +2,11 @@
 var PokemonHealth = 300;
 alert("The opponents pokemon has " + PokemonHealth + "HP left.");
 var PokemonAttackType = confirm("Is the type of attack a fire type attack?");
-//If the attack is a fire type it will be doubled, if not the it will be halved
+//If the attack is a fire type it will be doubled, if not the it will be halved.
 var PokemonAttackPP = prompt("How many PP does your pokemon have left?");
+//If your pokemon doesn't have at least 1PP it cannot attack.
 var PokemonAttackPower = prompt("What is the Pokemon\'s attack power?");
+//This will determine how much damage your pokemon will do.
 console.log("The opponents pokemon has " + PokemonHealth + "HP left.");
 console.log("Your Pokemon has " + PokemonAttackPP + "PP left.");
 if(PokemonAttackType){
