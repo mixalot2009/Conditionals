@@ -2,6 +2,7 @@
 var PokemonHealth = 300;
 alert("The opponents pokemon has " + PokemonHealth + "HP left.");
 var PokemonAttackType = confirm("Is the type of attack a fire type attack?");
+//If the attack is a fire type it will be doubled, if not the it will be halved
 var PokemonAttackPP = prompt("How many PP does your pokemon have left?");
 var PokemonAttackPower = prompt("What is the Pokemon\'s attack power?");
 console.log("The opponents pokemon has " + PokemonHealth + "HP left.");
@@ -15,6 +16,7 @@ if(PokemonAttackType){
     console.log("Your Attack was not very effective!")
     alert("Your Attack was not very effective!")
 }
+//The attack type determines if the attack does double or half the original damage would
 alert("Your Pokemon\'s attack did " + PokemonAttackBonus + "damage!")
 console.log("Your Pokemon did " + PokemonAttackBonus + "damage!");
 if(PokemonAttackPP > 1 && PokemonAttackBonus >= 300){
@@ -24,3 +26,4 @@ if(PokemonAttackPP > 1 && PokemonAttackBonus >= 300){
     console.log("You did not knock out the opponent\'s pokemon!")
     alert("You did not knock out the opponent\'s pokemon!")
 }
+//If the doubled or halved damage equals or exceeds 300 damage the pokemon is knocked out.
