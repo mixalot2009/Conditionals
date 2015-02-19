@@ -16,7 +16,7 @@ if(PokemonAttackType){
     alert("Your Attack was not very effective!")
 }
 alert("Your Pokemon\'s attack did " + PokemonAttackBonus + "damage!")
-console.log("Your Pokemon did " + PokemonAttackBonus + " damage!");
+console.log("Your Pokemon did " + PokemonAttackBonus + "damage!");
 if(PokemonAttackPP > 1 && PokemonAttackBonus >= 300){
     console.log("Your opponents pokemon fainted!")
     alert("Your opponents pokemon fainted!")
