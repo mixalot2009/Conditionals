@@ -1,6 +1,10 @@
 //Christofer Mix 02/19/2015 Conditionals
 var PokemonHealth = 300;
+var PokemonStatus
+PokemonStatus = (PokemonHealth) ? "Your opponents health is full." : "Your opponents pokemon is weakened.";
+console.log(PokemonStatus);
 alert("The opponents pokemon has " + PokemonHealth + "HP left.");
+alert(PokemonStatus)
 var PokemonAttackType = confirm("Is the type of attack a fire type attack?");
 //If the attack is a fire type it will be doubled, if not the it will be halved.
 var PokemonAttackPP = prompt("How many PP does your pokemon have left?");
