@@ -3,8 +3,8 @@ var PokemonHealth = 300;
 var PokemonAttackType = confirm("Is the type of attack a fire type attack?");
 var PokemonAttackPP = prompt("How many PP does your pokemon have left?");
 var PokemonAttackPower = prompt("What is the Pokemon's attack power?");
-console.log("The opponants pokemon has" + PokemonHealth+ "HP left");
-console.log(PokemonAttackPP);
+console.log("The opponants pokemon has" + PokemonHealth+ "HP left.");
+console.log("Your Pokemon has" + PokemonAttackPP + "PP left.");
 console.log(PokemonAttackPower);
 if(PokemonAttackType){
     PokemonAttackBonus = PokemonAttackPower * 2
